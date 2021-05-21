@@ -1,0 +1,753 @@
+body {
+    margin: 0;
+    /*    去網頁白邊*/
+}
+
+/*
+.logo {
+    background-color: bisque;
+    width: 100%;
+    height: 100hv;
+    color: currentColor;
+    font-family: monospace;
+    font-size: 20px;
+}
+*/
+.header {
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    /*    固定上方欄*/
+}
+
+.logo {
+    height: 30px;
+    /*    display: inline-block;*/
+    /*    align-self: center;*/
+    margin: 16px 7px;
+    padding: 0 10px;
+    float: left;
+    /*
+    padding-top: 13px;
+padding-left: 10px
+*/
+
+}
+
+.logo img {
+    height: 100%
+}
+
+.nav {
+    width: 69%;
+    display: inline-block;
+    font-size: 16px;
+    padding-right: 20px;
+    float: right;
+    text-align: right;
+
+    padding-top: 22px;
+    letter-spacing: 5px;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.nav:hover {
+    color: rgb(80, 180, 140);
+    font-size: 16px;
+    padding-right: 20px;
+    float: right;
+    text-align: right;
+    padding-top: 22px;
+    letter-spacing: 5px;
+}
+
+.nav a:hover {
+    color: rgb(80, 180, 140);
+
+}
+
+/*
+.nav {
+    width: 69%;
+    display: inline-block;
+    text-align: right;
+    top: 50px;
+    right: 50px;
+    color: rgba(47, 64, 0, 0.8);
+}
+*/
+.heroimg {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-image: url(img/bg.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.slogan h1 {
+    color: rgba(123, 239, 190, 0.75);
+    font-family: 'Noto Serif';
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 65px;
+    margin: 0;
+    padding-top: 30vh;
+}
+
+.slogan h2 {
+    color: rgba(255, 255, 255, 0.85);
+    font-family: 'Noto Serif';
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 5vh;
+
+}
+
+.slogan h3 {
+    color: rgba(255, 255, 255, 0.85);
+    font-family: 'Noto Serif';
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 28px;
+    margin: 0;
+    padding-top: 5vh;
+}
+
+/*
+.dpd {
+    float: right;
+    border: 3px double #fff;
+    width: 70px;
+    height: 50px;
+    margin: 30px auto;
+    padding:0 10px 0  ;
+    color: rgba(255, 255, 255, 0.82);
+    font-family: inherit;
+    font-size: 10px;
+    letter-spacing: 5px;
+    font-family: 'Noto Serif';
+    text-align: center;
+
+}
+.dpd:hover{
+    width: 70px;
+    height: 100px;
+    margin: 30px auto;
+    padding:0 10px 0  ;
+    
+}
+*/
+
+.b1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 3% auto;
+}
+
+.btnn{
+        margin: 0 2%;
+    text-align: center;
+
+    
+}
+.btn {
+    border: 3px double #fff;
+    width: 120px;
+    height: 120px;
+    padding: 15%;
+    display: block;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: serif;
+    font-size: 25px;
+    font-family: 'Noto Serif';
+    box-sizing: border-box;
+
+}
+
+.btn:hover {
+    background: rgba(123, 239, 190, 0.5);
+    color: rgba(255, 255, 255);
+    font-weight: 450;
+
+}
+
+.top img {
+    width: 100%;
+}
+
+/*
+.icnt {
+    width: 80px;
+    text-align: center;
+}
+*/
+
+
+.top {
+    background: rgb(78, 224, 162);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    /*    text-align: center;*/
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.top:hover {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background: rgb(79, 255, 185);
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.content1 {
+    background: rgba(195, 237, 168, 0.8);
+    width: 100%;
+    height: 200px;
+    color: darkgreen;
+   
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
+
+p1 {
+    /*    978*/
+    font-size: 32px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p2 {
+    /*    會員資料查核*/
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.goal {
+    /*    background: rgba(195, 237, 168, 0.8);*/
+    width: 33%;
+    margin: 0 0;
+    padding: 30px 0;
+    float: left;
+    font-size: 20px;
+    font-family: 'Noto Serif';
+    font-weight: 500;
+}
+
+
+
+.content {
+    width: 100%;
+    padding: 5%;
+    /*    margin: 0 30px;*/
+}
+
+.article {
+    height: 350px;
+    width: 100%;
+}
+
+.photo {
+    width: 40%;
+    padding-left: 4%;
+}
+
+.text {
+    width: 40%;
+    padding-left: 3%;
+    padding-top: 10%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+pp {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+pp:hover {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(80, 180, 140)
+}
+
+.aa {
+    width: 50%;
+    height: 100px
+}
+
+.arrow {
+    width: 25px;
+    height: 25px;
+    text-align: ;
+    background-image: url("icon/aarrow.svg");
+}
+
+.text img {
+    width: 6%;
+    fill
+}
+
+.text h2 {
+    /*    圖片大標*/
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(80, 180, 140);
+    text-align: left;
+}
+
+
+.photo,
+.text {
+    float: left;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 20%;
+
+}
+
+.photo2 {
+    width: 40%;
+    padding-right: 4%;
+}
+
+.text2 {
+    width: 40%;
+    padding-right: 3%;
+    padding-top: 8%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.text2 h2 {
+    /*    圖片大標（中間）*/
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(80, 180, 140);
+    text-align: left;
+}
+
+.photo2,
+.text2 {
+    float: right;
+}
+
+.photo2 img {
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    border-radius: 20%;
+
+}
+
+.photo3 {
+    width: 40%;
+    padding-left: 4%;
+}
+
+.text3 {
+    width: 40%;
+    padding-left: 3%;
+    padding-top: 9%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.text3 h2 {
+    /*    圖片大標*/
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(80, 180, 140);
+    text-align: left;
+
+}
+
+.photo3,
+.text3 {
+    float: left;
+}
+
+.photo3 img {
+    width: 100%;
+    border-radius: 20%;
+
+}
+
+p {
+    /*    圖片小標*/
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.space {
+    width: 100%;
+    height: 300px;
+
+}
+
+/*
+.space2 {
+    width: 100%;
+    height: 0px;
+    padding-left: 0%;
+    padding-top: 0%;
+*/
+
+}
+
+.spa {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(155, 255, 215, 0.5);
+    border-radius: 10%;
+    padding-top: 80%;
+    padding-left: 30%;
+}
+
+.content2 {
+    width: 100%;
+    clear: left;
+    text-align: center;
+    padding-top: 1%;
+    /*    margin-bottom: 20px;*/
+}
+
+.container2 {
+    height: 3%;
+}
+
+.h {
+    /*    最新消息*/
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    clear: left;
+    height: 43px;
+
+}
+
+.p {
+    /*    news*/
+    font-size: 26px;
+    font-weight: 500;
+    color: rgb(80, 180, 140);
+    clear: left;
+    height: 0px;
+    font-family: sans-serif;
+
+    /*    font-family: sans-serif;*/
+
+
+}
+
+.content3 {
+    width: 100%;
+    clear: left;
+    text-align: center;
+    /*    margin-bottom: 20px;*/
+}
+
+.sitemap {
+    width: 100%;
+    /*    position: absolute;*/
+    height: auto;
+    padding-bottom: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+
+}
+
+.column {
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    float: left;
+    /*    background-color: rgba(195, 237, 168, 0.8);*/
+    margin: 3% 1%;
+    padding: 0%;
+    border-radius: 10%;
+    margin-bottom: 5%;
+}
+
+.column img {
+    padding: 2% 3%;
+    padding-top: ;
+    width: 100%;
+    border-radius: 10%;
+    opacity: .8;
+
+}
+
+.t {
+    font-family: 'Noto Serif';
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(70, 70, 70, 0.8);
+
+}
+
+.box-wray {
+    border: 4px double #dedede;
+    border-radius: 10px;
+    color: rgb(70, 70, 70);
+    font-family: 'Noto Serif';
+    padding: 5%;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.box-wray:hover .t {
+    width: 100%;
+    color: rgba(70, 70, 70, 0.95);
+    border: 4px double #ffffff;
+    background-color: rgba(123, 239, 190, 0.5);
+    border-radius: 10px;
+    padding: 3%;
+}
+
+.box-wray:hover img {
+    transform: scale(0.95);
+    transition: all .5s;
+    opacity: 1;
+
+}
+
+.content4 {
+    width: 100%;
+    height: 100px;
+    clear: left;
+    text-align: center;
+    padding-top: 5%;
+    /*    margin-bottom: 20px;*/
+}
+
+.container3 {
+    height: 300px;
+    width: 100%;
+
+}
+
+.footer2 {
+    /*    background: rgba(204, 204, 204, 0.61);*/
+    width: 100%;
+    /*    position: absolute;*/
+    height: 200px;
+    margin: 50px 0;
+    margin-bottom: 10%;
+
+
+    /*    clear:both;*/
+}
+
+.sitemap2 {
+    width: 100%;
+    /*    position: absolute;*/
+    height: auto;
+    margin-bottom: 10%;
+    padding-top: 110px;
+
+}
+
+.column3 {
+    text-align: center;
+    width: 27%;
+    height: auto;
+    float: left;
+    /*    background-color: rgba(195, 237, 168, 0.8);*/
+    margin: 0 2%;
+}
+
+.t2 {
+    background-color: ;
+    border: 4px double rgb(80, 180, 140);
+    border-radius: 45% 45% 15% 15%;
+    padding: 0 12%;
+    padding-top: 16%;
+    height: 420px;
+    letter-spacing: 1px;
+    text-align: justify;
+
+
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 4px;
+    color: rgb(80, 180, 140);
+    text-align: center;
+}
+
+p3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.btn2 {
+    text-align: center;
+    margin-top: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 160px;
+    height: 50px;
+    background-color: rgba(123, 239, 190, 0.5);
+    color: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+
+}
+
+.btnn2 {
+    color: darkgreen;
+}
+
+.coll3 {
+    width: 100%;
+    height: auto;
+    background-color: rgba(60, 25, 14, 0.61);
+    background-blend-mode: multiply;
+    background-image: url(img/btm.jpg);
+    opacity: .8;
+    background-size: cover;
+}
+
+.container4 {
+    width: 100%;
+    padding: 0 33%;
+}
+
+.col {
+    width: 60px;
+    height: auto;
+    padding: 1%;
+    margin: 0 3%;
+    margin-top: 15%;
+    opacity: .8;
+    border: solid 1px rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+
+}
+
+.col:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+    transition: all .3s;
+
+}
+
+.col img:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+.icn img {
+    width: 100%;
+
+}
+
+.container5 {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.c5 {
+    padding: 3% 20%;
+}
+
+.c6 {
+    padding: 0 10%;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(80, 180, 140);
+    text-align: center;
+}
+
+p5 {
+    font-size: 18px;
+    font-weight: 300;
+    float: right;
+    opacity: .9;
+    margin-bottom: 10%
+}
+
+p55 {
+    font-size: 17px;
+    font-weight: 400;
+    opacity: .9;
+    letter-spacing: 1px;
+}
+
+.link-top {
+    width: 100%;
+    border-top: solid rgba(255, 255, 255, 0.6) 1px;
+    padding-top: 2%;
+    padding-bottom: 0%;
+}
+
+.container6 {
+    width: 100%;
+    height: 100px;
+    padding: 0 3%;
+}
+
+.col2 {
+    color: rgb(255, 255, 255);
+    margin-top: 0%;
+    padding: 0% 0%;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+p6 {
+    padding-top: 1%;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+p7 {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.c66 {
+    margin-top: 8%;
+    width: 100%;
+    text-align: center;
+    line-height: 26px;
+
+}
